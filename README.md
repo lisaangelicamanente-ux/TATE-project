@@ -1,4 +1,4 @@
-# tate-artwork-titles-analysis
+# TATE artwork titles analysis
 Digital humanities research project 
 ## An Exploratory Analysis of Artwork Titles in the Tate Collection
 
