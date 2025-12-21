@@ -59,17 +59,13 @@ All processing steps are fully implemented in the provided notebook and can be r
 
 ---
 
-## 4. Analytical Results
+## 4. Results
 
 The analysis reveals that the vocabulary of artwork titles follows a pronounced long-tail distribution: a small number of highly frequent, generic terms account for a large proportion of all titles, while the majority of words appear only rarely.
 
 Frequently occurring terms tend to be descriptive or classificatory (e.g. genre-related or formal descriptors), whereas expressive or emotionally charged words are comparatively rare. When examined diachronically, some shifts in vocabulary can be observed across decades, suggesting changes in artistic practices as well as institutional framing.
 
 Rather than providing fine-grained semantic interpretation, these results highlight large-scale patterns in how artworks are named and categorized within an institutional context.
-
----
-
-## 5. Discussion
 
 The findings suggest that artwork titles in the Tate collection are strongly shaped by institutional and descriptive conventions. The dominance of generic terms indicates that titles often function as classificatory labels rather than expressive statements.
 
@@ -79,7 +75,7 @@ By focusing on word frequencies and their temporal distribution, this project em
 
 ---
 
-## 6. Limitations and Biases
+## 5. Limitations and Biases
 
 Several limitations affect the analysis:
 
@@ -90,11 +86,8 @@ Several limitations affect the analysis:
 
 ---
 
-## 7. Reproducibility
+## 6. Reproducibility
 
 This repository contains all code necessary to reproduce the analysis. The main notebook can be run end-to-end to regenerate all intermediate and final outputs. The project follows open research principles and is archived via Zenodo to ensure long-term accessibility and citability.
 
----
-
-## 8. Repository Structure
 
