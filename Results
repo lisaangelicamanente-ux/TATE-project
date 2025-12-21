@@ -1,38 +1,86 @@
-# Word frequency distribution
+## Results
 
-The frequency analysis of words appearing in artwork titles reveals a pronounced long-tail (Zipf-like) distribution, 
-a pattern commonly observed in natural language data. A small number of highly frequent terms accounts for a large proportion of all titles, while the majority of words occur very infrequently.
-The most frequent words tend to be generic descriptors rather than expressive or narrative terms. 
-They often refer to artistic genres (portrait, study, landscape), formal elements (figure, head), or compositional aspects. 
-This suggests that titles primarily function as classificatory labels, positioning artworks within established art-historical and curatorial categories rather than conveying subjective meaning.
-In contrast, the long tail consists of a large number of rare and highly specific terms. While these words may carry richer semantic or contextual significance, their low frequency makes them unsuitable for large-scale quantitative generalization. This tension between richness and statistical sparsity is a well-known issue in computational text analysis of cultural data (Moretti 2013).
+### Word frequency distribution
 
-# Temporal patterns by decade
+The frequency analysis of words appearing in artwork titles reveals a pronounced
+long-tail (Zipf-like) distribution, a pattern commonly observed in natural
+language data. A small number of highly frequent terms accounts for a
+large proportion of all titles, while the majority of words occur only rarely.
 
-Grouping artworks by decade shows that the overall long-tail structure remains stable across time. However, shifts can be observed in the relative prominence of certain terms and semantic clusters.
+Highly frequent words tend to be generic and descriptive rather than expressive
+or narrative. They often refer to artistic genres (e.g. *portrait*, *study*,
+*landscape*), formal elements (e.g. *figure*, *head*), or compositional aspects.
+This suggests that titles primarily function as classificatory labels, situating
+artworks within established art-historical and curatorial categories.
 
-Some descriptive words persist across decades, indicating continuity in institutional cataloguing practices. Other terms show gradual changes in frequency that loosely correspond to broader historical developments in art, such as the increasing prominence of abstraction and formal experimentation in the mid-to-late twentieth century.
+In contrast, the long tail consists of a large number of low-frequency and highly
+specific terms. While these words may carry richer semantic or contextual
+significance, their rarity limits their usefulness for large-scale quantitative
+generalisation, a well-known issue in computational analysis of cultural texts.
 
-Rather than reflecting abrupt stylistic breaks, these patterns suggest slow institutional adaptation in descriptive language, aligning with scholarship that emphasizes the inertia and conservatism of museum classification systems (Bowker & Star 1999).
+---
 
-# Titles as institutional and classificatory language
+### Temporal patterns by decade
 
-The findings indicate that artwork titles in the Tate collection should not be interpreted primarily as direct expressions of artistic intent. Instead, they appear to function as elements of institutional language, shaped by curatorial conventions, archival needs, and cataloguing standards.
+Grouping artworks by decade shows that the overall long-tail structure remains
+stable across time. However, shifts can be observed in the relative prominence of
+certain terms and semantic clusters.
 
-This interpretation resonates with art historical and museum studies research that highlights the role of institutions in mediating artistic meaning (Bennett 1995; Duncan 1995). Titles, in this context, operate less as poetic or expressive texts and more as metadata designed to support organization, retrieval, and classification.
+Some descriptive words persist across decades, indicating continuity in
+institutional cataloguing practices. Other terms show gradual changes in
+frequency that loosely correspond to broader historical developments in art,
+such as the increasing prominence of abstraction in the second half of the
+twentieth century.
 
-# Methodological implications of the long tail
+Rather than reflecting abrupt stylistic breaks, these patterns suggest slow
+institutional adaptation in descriptive language, aligning with scholarship that
+emphasises the inertia of classification systems.
 
-The observed long-tail distribution has important methodological implications for computational humanities research. While sentiment analysis or semantic classification techniques are often applied to textual data, the sparse and descriptive nature of the vocabulary in this dataset limits their interpretive reliability.
+---
 
-As argued in critical DH scholarship, computational methods should be used not only to extract meaning but also to assess the epistemic limits of what can be inferred from data (Jänicke et al. 2017). In this project, frequency-based analysis serves as a diagnostic tool that reveals structural properties of the dataset rather than hidden semantic depth.
+### Titles as institutional language
 
-# Iteration and limits
+The findings suggest that artwork titles in the Tate collection should not be
+interpreted primarily as expressions of artistic intent. Instead, they appear to
+function as products of institutional mediation, shaped by curatorial
+conventions, archival needs, and cataloguing standards.
 
-An important outcome of this project is methodological rather than purely substantive. Initial ambitions to explore affective or expressive dimensions of titles were revised after empirical analysis revealed the dominance of generic and institutional descriptors.
+This interpretation resonates with art historical and museum studies research
+that highlights the role of museums in framing and mediating meaning (Bennett
+1995; Duncan 1995). In this context, titles operate less as expressive texts and
+more as metadata designed to support organisation and retrieval.
 
-This iterative adjustment of research questions in response to data constraints reflects best practices in computational humanities research, where methodological reflexivity is essential (Rockwell & Sinclair 2016). The project thus demonstrates how encountering limits can productively reshape research design rather than undermine it.
+---
 
-Broader implications for cultural heritage data
+### Methodological implications of the long tail
 
-More broadly, this analysis highlights how large-scale cultural heritage datasets encode specific institutional priorities and epistemologies. The language of artwork titles reflects not only artistic practices but also historical conventions of museum documentation and knowledge organization.
+The observed long-tail distribution has important methodological implications.
+While sentiment analysis or semantic classification techniques are often applied
+to textual data, the sparse and descriptive nature of the vocabulary in this
+dataset limits the reliability of such approaches.
+
+Following critical digital humanities perspectives, this project treats
+frequency-based analysis as a diagnostic tool that reveals structural properties
+of the data and clarifies the limits of computational interpretation.
+
+---
+
+### Iteration and limits
+
+An important outcome of this project is methodological rather than purely
+substantive. Initial plans to explore affective or expressive dimensions of
+titles were revised after encountering the descriptive and institutional nature
+of the data.
+
+This iterative process reflects best practices in computational humanities
+research, where adapting research questions in response to data constraints is
+central to responsible analysis (Rockwell & Sinclair 2016).
+
+---
+
+### Broader implications
+
+More broadly, this project illustrates how large-scale cultural heritage datasets
+encode institutional priorities and epistemologies. The language of artwork
+titles reflects not only artistic practices but also historical conventions of
+museum documentation.
