@@ -61,17 +61,15 @@ All processing steps are fully implemented in the provided notebook and can be r
 
 ## 4. Results
 
-The analysis reveals that the vocabulary of artwork titles follows a pronounced long-tail distribution: a small number of highly frequent, generic terms account for a large proportion of all titles, while the majority of words appear only rarely.
+The analysis reveals that the vocabulary of artwork titles follows a pronounced long-tail (Zipf-like) distribution: a small number of highly frequent, generic terms account for a large proportion of all titles, while the majority of words appear only rarely.
 
 Frequently occurring terms tend to be descriptive or classificatory (e.g. genre-related or formal descriptors), whereas expressive or emotionally charged words are comparatively rare. When examined diachronically, some shifts in vocabulary can be observed across decades, suggesting changes in artistic practices as well as institutional framing.
 
-Rather than providing fine-grained semantic interpretation, these results highlight large-scale patterns in how artworks are named and categorized within an institutional context.
+Rather than providing detailed semantic interpretation, these results highlight large-scale patterns in how artworks are named and categorized within an institutional context.
 
 The findings suggest that artwork titles in the Tate collection are strongly shaped by institutional and descriptive conventions. The dominance of generic terms indicates that titles often function as classificatory labels rather than expressive statements.
 
-The long-tail structure of the vocabulary also demonstrates the limitations of automated semantic or sentiment-based approaches for this type of data. Most potentially meaningful or expressive words occur too infrequently to support robust quantitative generalization without substantial interpretive intervention.
-
-By focusing on word frequencies and their temporal distribution, this project emphasizes exploratory analysis and methodological reflection over predictive modeling, aligning with humanities-oriented research goals.
+The long-tail structure of the vocabulary also demonstrates the limitations of automated semantic or sentiment-based approaches for this type of data. Most potentially meaningful or expressive words occur too rarely to support robust quantitative generalization without substantial interpretive intervention.
 
 ---
 
